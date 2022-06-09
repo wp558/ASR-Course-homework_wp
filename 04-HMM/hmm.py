@@ -1,4 +1,4 @@
-# Author: Kaituo Xu, Fan Yu
+# Author: Wang peng
 import numpy as np
 
 def forward_algorithm(O, HMM_model):

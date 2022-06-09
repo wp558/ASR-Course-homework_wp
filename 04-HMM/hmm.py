@@ -27,7 +27,7 @@ def forward_algorithm(O, HMM_model):
     return prob
 
 def backward_algorithm(O, HMM_model):
-    """HMM Backward Algorithm.
+    """HMM Backward Algorithm. 
     Args:
         O: (o1, o2, ..., oT), observations
         HMM_model: (pi, A, B), (init state prob, transition prob, emitting prob)
